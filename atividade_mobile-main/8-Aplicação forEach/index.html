@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo forEach()</title>
+</head>
+<body>
+
+  <h1>Exemplo forEach()</h1>
+
+  <p id="result"></p>
+
+  <script>
+    const numbers = [1, 2, 3, 4, 5];
+    let result = "";
+
+    numbers.forEach(function(number) {
+      result += (number * 2) + "<br>";
+    });
+
+    document.getElementById("result").innerHTML = result;
+  </script>
+
+</body>
+</html>
